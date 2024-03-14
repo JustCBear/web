@@ -1,0 +1,119 @@
+body {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+    color: red;
+    background-color: #2B2B89;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 15px 100px;
+    margin: 0 auto;
+}
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: #98BB24;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.logo img {
+    display: block;
+    width: 80px;
+    height: 80px;
+
+}
+nav ul {
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: #C44426;
+    font-size: 18px;
+}
+
+.auth button {
+    outline: none;
+    border: none;
+    background-color: #C44426;
+    color: azure;
+    border-radius: 15px;
+    padding: 25px;  
+}
+
+.infoText {
+    min-height: 100vh;
+    border-radius: 25px;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.infoText h1 {
+    max-width: 1400px;
+    padding: 50px 100px;
+    margin: 0 auto;
+    font-size: 50px;
+}
+
+.infoText p {
+    max-width: 1400px;
+    padding: 50px 100px;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.infoText a {
+    max-width: 1400px;
+    padding: 50px 100px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #98BB24;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.flexParent {
+    max-width: 260px;
+    border: 2px solid pink;
+    border-radius: 10px;
+}
+.flexParent img {
+    width: 100%;
+    height: 200px;
+    padding: 25px;
+}
+.flexParent p {
+    font-size: 15px;
+}
+.flexParent a {
+    color: red;
+}

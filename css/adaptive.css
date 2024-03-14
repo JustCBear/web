@@ -1,0 +1,74 @@
+@media screen and (max-width: 1150px) {
+    nav, ul, li, a, .auth {
+        font-size: 18px;
+    }
+    .infoText h1 {
+        font-size: 50px;
+    }
+
+    .infoText p {
+        font-size: 30px;
+    }
+
+    .infoText a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    nav, ul, li, a, .auth {
+        font-size: 14px;
+    }
+
+    .infoText h1 {
+        font-size: 38px;
+    }
+
+    .infoText p {
+        font-size: 28px;
+    }
+
+    .infoText a {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 778px) {
+    nav, ul, li, a, .auth {
+        font-size: 10px;
+    }
+
+    .infoText h1 {
+        font-size: 30px;
+    }
+
+    .infoText p {
+        font-size: 25px;
+    }
+
+    .infoText a {
+        font-size: 12px;
+    }
+}
+
+
+
+@media screen and (max-width: 690px) {
+    nav, .auth {
+        display: none;
+    }
+
+    .infoText h1 {
+        font-size: 20px;
+        
+    }
+
+    .infoText p {
+        font-size: 15px;
+    }
+
+    .infoText a {
+        padding: 50px 50px;
+        font-size: 4px;
+    }
+}
