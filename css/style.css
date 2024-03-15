@@ -102,7 +102,8 @@ nav ul li a {
 }
 
 .sliderPage {
-    min-height: 100vh;
+    min-height: 100px;
+    width: 100%;
     border-radius: 25px;    
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,6 +111,7 @@ nav ul li a {
 }
 
 .sliderPage img {
+    height: 800px;
     width: 100%;
     vertical-align: middle;
 }
@@ -141,6 +143,39 @@ nav ul li a {
     color: black;
   }
   
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+
 .flexContainer {
     display: flex;
     justify-content: space-between;
